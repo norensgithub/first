@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+	<meta charset="utf-8">
+	<title>Вход</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+<div class="container">
+	<div class="hey box">
+		<div>
+			<img src="ава.jpg" alt="Hello?" class="fotka"/>
+		</div>
+		<div>
+			<h1>facebook</h1>
+			<h2>Blah, blah, blah!</h2>
+	    </div>
+	</div>
+	<div class="infoenter box">
+			<input type="text" name="usermailphone" placeholder="Электронный адрес или номер телефона">
+			<input type="password" name="userpass" placeholder="Пароль">
+			<form method="post" action=""><input type="button" name="enterbutton" value="Вход" class="butt enter"></form>
+			<a href="">Забыли пароль?</a>
+			<hr color="darkgrey">
+			<form method="post" action=""><input type="button" name="newacc" value="Создать новый аккаунт" class="butt newacc"></form>
+	</div>
+	<div class="registrationblock">
+		<div class="top">
+			<h3 class="close"><a href="index.html">X</a></h3>
+			<h1 class="regtext">Регистрация</h1>
+			<h5 class="regundertext">Быстро и легко.</h5>
+		</div>
+		<div class="bottom">
+			<form method="post" action="">
+				<div class="namesur">
+					<input type="text" name="name" class="name" placeholder="Имя">
+					<input type="text" name="surname" class="surname" placeholder="Фамилия">
+				</div>
+				<input type="text" name="phonemail" class="phone" placeholder="Номер телефона или эл.адрес">
+				<input type="password" name="newpass" class="newpass" placeholder="Новый пароль">
+				<h5 class="date boxtext">Дата рождения</h5>
+				<input type="date">
+				<h5 class="gender boxtext">Пол</h5>
+				<div class="gender">
+					<span class="bigwom big">
+						<label class="wom">Женщина</label>
+						<input type="radio" class="womrad rad" name="sex">
+					</span>
+					<span class="bigman big">
+						<label class="man">Мужчина</label>
+						<input type="radio" class="manrad rad" name="sex">
+					</span>
+					<span class="bigoth big">
+						<label class="oth">Другое</label>
+						<input type="radio" class="othrad" name="sex">
+					</span>
+				</div>
+				<div class="regspace">
+					<button type="submit" class="reg">Регистрация</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+</body>
+</html>
